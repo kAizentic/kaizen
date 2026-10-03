@@ -43,7 +43,7 @@ each with its own test suite.
 The ADRs numbered 0009 and up are mostly about a harder version of the same question: how do you
 tell whether a change to an agent system actually improved it? They cover shadow ablation and
 sealed audits (0012), randomised promotion with a behavioural metric (0013–0014), variance
-reduction and sequential allocation (0015), and why a redundancy cluster — not a single item — is
+reduction and sequential allocation (0015), and why a redundancy cluster - not a single item - is
 the correct unit of ablation on a densely linked corpus (0017).
 
 ## Running the tests
