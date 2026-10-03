@@ -1,4 +1,4 @@
-# skillanvil
+# kaizen
 
 A build-and-governance toolchain for agent skills: a compiler that turns a versioned source tree
 of agent skills into a runtime, a deterministic lint engine that gates what ships, a set of
