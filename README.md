@@ -35,7 +35,7 @@ problems — they were build, governance, and measurement problems.
 
 The system accumulated written rules faster than it followed them. The fix was to stop writing
 rules and start compiling them: every rule that mattered got demoted to prose *or* promoted to an
-executable gate. `hooks/herestring-guard.mjs` is the clearest case — a documented rule that was
+executable gate. `hooks/herestring-guard.mjs` is the clearest case: a documented rule that was
 violated four times as prose, then zero times across 276 subsequent operations once it became a
 hook. `hooks/shell-edit-guard.mjs` and `hooks/inbox-glob-delete-guard.mjs` are the same pattern,
 each with its own test suite.
