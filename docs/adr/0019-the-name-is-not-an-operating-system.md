@@ -1,6 +1,6 @@
 # 0019 — The name is not an operating system
 
-- Status: accepted — renamed to **`skillanvil`** (2026-09-09)
+- Status: accepted — renamed to **`skillanvil`** (2026-09-09); renamed again to **`kaizen`** (2026-10-03, see the addendum at the end). The reasoning against an operating-system name still stands.
 - Date: 2026-09-08; name chosen 2026-09-09
 - Scope: the repository name, and the README's opening positioning line.
 - Supersedes: the naming implied by the initial publish (2026-09-01), which shipped without a
@@ -203,3 +203,22 @@ stays read-only, the README must say so prominently enough that the name does no
   a name commercially.
 - Domain availability was inferred from HTTP response codes, not WHOIS. A registered-but-unhosted
   domain is indistinguishable from an unregistered one by that method.
+
+## Addendum (2026-10-03): renamed to `kaizen`
+
+The owner renamed the repository to `kaizen`, after the owner's own brand (kAizentic).
+The rest of this ADR still holds. `AOS` and `kaizen-os` were considered and rejected on its terms first:
+
+- `AOS` collides head-on with an agent runtime that calls itself "AOS: the open agent operating
+  system" (`unicity-aos/aos-ce`). That runtime does pass the discriminating test above: it isolates
+  capsules in a WASM sandbox and meters their resources. The npm package `aos` is also an
+  established scroll-animation library.
+- `kaizen-os` brings back the operating-system claim this ADR rejected, and collides with
+  `kaizenos.ai`, a live product marketed as a "Business Operating System".
+
+Pre-flight for `kaizen`, run 2026-10-03 before the rename: `kaizen` is an ordinary word. On GitHub
+the most-starred match is `Cloud-Code-AI/kaizen` (304 stars, AI dev-task automation), followed by
+Culture Amp's design system. npm and PyPI `kaizen` are both taken, which doesn't matter here because
+this repository is not published as a package. `kAizentic/kaizen` was free. The name makes no claim
+about what the code does, so the clarity test in section 1 cannot fail. The price is that the name
+alone is hard to find in search.

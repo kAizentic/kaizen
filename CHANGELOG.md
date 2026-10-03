@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-03
+
+### Changed
+- Renamed `skillanvil` → `kaizen` (repository, README title). The old URL redirects. ADR 0019 carries the addendum.
+
 ## 2026-09-23 `52f0633..bf7dbad`
 
 ### Fixed
