@@ -1,6 +1,6 @@
 # 0019 — The name is not an operating system
 
-- Status: accepted — renamed to **`skillanvil`** (2026-09-09); renamed again to **`kaizen`** (2026-10-03, see the addendum at the end). The reasoning against an operating-system name still stands.
+- Status: accepted - renamed to **`skillanvil`** (2026-09-09); renamed again to **`kaizen`** (2026-10-03, see the addendum at the end). The reasoning against an operating-system name still stands.
 - Date: 2026-09-08; name chosen 2026-09-09
 - Scope: the repository name, and the README's opening positioning line.
 - Supersedes: the naming implied by the initial publish (2026-09-01), which shipped without a
